@@ -95,8 +95,8 @@ theme:
 # Plugins
 plugins:
   - search
-  # - git-revision-date-localized:
-  #     enable_creation_date: true
+  - git-revision-date-localized:
+      enable_creation_date: true
   - redirects:
       redirect_maps:
         changelog/insiders.md: insiders/changelog.md
@@ -220,6 +220,8 @@ nav:
               - Weaponization: tryhackme/red-teaming/init-access/red-team-weaponization/index.md
               - Password Attacks: tryhackme/red-teaming/init-access/password-attacks/index.md
               - Phishing: tryhackme/red-teaming/init-access/phishing/index.md
+          - Post Compromise:
+              - The Lay of the Land: tryhackme/red-teaming/post-compromise/the-lay-of-the-land/index.md
     - Room:
         - Basic Pentesting: tryhackme/room/basic-pentesting/index.md
         - Lian_Yu : tryhackme/room/lianyu/index.md
