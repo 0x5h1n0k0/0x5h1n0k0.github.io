@@ -51,6 +51,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://0x5h1n0k0.github.io/tryhackme/red-teaming/post-compromise/enumeration/</loc>
+         <lastmod>2023-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/red-teaming/post-compromise/the-lay-of-the-land/</loc>
          <lastmod>2023-08-22</lastmod>
          <changefreq>daily</changefreq>
@@ -102,6 +107,11 @@
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/metasploit/</loc>
+         <lastmod>2023-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://0x5h1n0k0.github.io/tryhackme/room/printer-hacking-101/</loc>
          <lastmod>2023-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
