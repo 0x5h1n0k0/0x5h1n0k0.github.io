@@ -217,12 +217,13 @@ nav:
     - Learning Paths:
       - Red Teaming:
           - Init Access:
-              - Weaponization: tryhackme/red-teaming/init-access/red-team-weaponization/index.md
-              - Password Attacks: tryhackme/red-teaming/init-access/password-attacks/index.md
-              - Phishing: tryhackme/red-teaming/init-access/phishing/index.md
+              - Weaponization: tryhackme/room/red-team-weaponization/index.md
+              - Password Attacks: tryhackme/room/password-attacks/index.md
+              - Phishing: tryhackme/room/phishing/index.md
           - Post Compromise:
-              - The Lay of the Land: tryhackme/red-teaming/post-compromise/the-lay-of-the-land/index.md
-    - Room:
+              - The Lay of the Land: tryhackme/room/the-lay-of-the-land/index.md
+              - Enumeration: tryhackme/room/enumeration/index.md
+    - Practice:
         - Basic Pentesting: tryhackme/room/basic-pentesting/index.md
         - Lian_Yu : tryhackme/room/lianyu/index.md
   - Categories: tags/tags.md
