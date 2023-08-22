@@ -1,0 +1,16 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "base.html" %}
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'overrides/assets/stylesheets/main.82a244a8.min.css' | url }}">
+{% endblock %}
+{% block content %}
+  {% include "overrides/partials/content.html" %}
+{% endblock %}
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'overrides/assets/javascripts/bundle.ed7d8744.min.js' | url }}"></script>
+  <script src="{{ 'overrides/assets/javascripts/cursor-effects.js' | url }}"></script>
+  <!-- <script src="{{ 'assets/javascripts/cursor-effects.js' | url }}"></script> -->
+{% endblock %}

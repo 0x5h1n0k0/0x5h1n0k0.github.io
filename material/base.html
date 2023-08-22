@@ -1,0 +1,365 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% import "partials/language.html" as lang with context %}
+<!doctype html>
+<html lang="{{ lang.t('language') }}" class="no-js">
+  <head>
+    {% block site_meta %}
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      {% if page.meta and page.meta.description %}
+        <meta name="description" content="{{ page.meta.description }}">
+      {% elif config.site_description %}
+        <meta name="description" content="{{ config.site_description }}">
+      {% endif %}
+      {% if page.meta and page.meta.author %}
+        <meta name="author" content="{{ page.meta.author }}">
+      {% elif config.site_author %}
+        <meta name="author" content="{{ config.site_author }}">
+      {% endif %}
+      {% if page.canonical_url %}
+        <link rel="canonical" href="{{ page.canonical_url }}">
+      {% endif %}
+      <link rel="icon" href="{{ config.theme.favicon | url }}">
+      <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-8.3.9">
+    {% endblock %}
+    {% block htmltitle %}
+      {% if page.meta and page.meta.title %}
+        <title>{{ page.meta.title }} | {{ config.site_name }}</title>
+      {% elif page.title and not page.is_homepage %}
+        <title>{{ page.title | striptags }} | {{ config.site_name }}</title>
+      {% else %}
+        <title>{{ config.site_name }}</title>
+      {% endif %}
+    {% endblock %}
+    {% block styles %}
+      <link rel="stylesheet" href="{{ 'assets/stylesheets/main.1d29e8d0.min.css' | url }}">
+      <link rel="stylesheet" href="{{ 'assets/stylesheets/cur.css' | url }}">
+      <link rel="stylesheet" href="{{ 'assets/stylesheets/footer.scss' | url }}">
+      {% if config.theme.palette %}
+        {% set palette = config.theme.palette %}
+        <link rel="stylesheet" href="{{ 'assets/stylesheets/palette.cbb835fc.min.css' | url }}">
+        {% if palette.primary %}
+          {% import "partials/palette.html" as map %}
+          {% set primary = map.primary(
+            palette.primary | replace(" ", "-") | lower
+          ) %}
+          <meta name="theme-color" content="{{ primary }}">
+        {% endif %}
+      {% endif %}
+      {% include "partials/icons.html" %}
+    {% endblock %}
+    {% block libs %}{% endblock %}
+    {% block fonts %}
+      {% if config.theme.font != false %}
+        {% set text = config.theme.font.text | d("Roboto", true) %}
+        {% set code = config.theme.font.code | d("Roboto Mono", true) %}
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{
+            text | replace(' ', '+') + ':300,300i,400,400i,700,700i%7C' +
+            code | replace(' ', '+') + ':400,400i,700,700i'
+          }}&display=fallback">
+        <style>:root{--md-text-font:"{{ text }}";--md-code-font:"{{ code }}"}</style>
+      {% endif %}
+    {% endblock %}
+    {% for path in config["extra_css"] %}
+      <link rel="stylesheet" href="{{ path | url }}">
+    {% endfor %}
+    {% include "partials/javascripts/base.html" %}
+    {% block analytics %}
+      {% include "partials/integrations/analytics.html" %}
+    {% endblock %}
+    {% block extrahead %}{% endblock %}
+          <!-- live 2d -->
+          <link href="https://r18-nmsl.cn/pio/pio.css" rel="stylesheet" type="text/css">
+    <!-- <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">
+    <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script> -->
+  </head>
+  {% set direction = config.theme.direction or lang.t('direction') %}
+  {% if config.theme.palette %}
+    {% set palette = config.theme.palette %}
+    {% if not palette is mapping %}
+      {% set palette = palette | first %}
+    {% endif %}
+    {% set scheme  = palette.scheme  | replace(" ", "-") | lower %}
+    {% set primary = palette.primary | replace(" ", "-") | lower %}
+    {% set accent  = palette.accent  | replace(" ", "-") | lower %}
+    <body dir="{{ direction }}" data-md-color-scheme="{{ scheme }}" data-md-color-primary="{{ primary }}" data-md-color-accent="{{ accent }}">
+  {% else %}
+    <body dir="{{ direction }}">
+  {% endif %}
+    {% set features = config.theme.features or [] %}
+    {% if not config.theme.palette is mapping %}
+      {% include "partials/javascripts/palette.html" %}
+    {% endif %}
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      {% if page.toc | first is defined %}
+        {% set skip = page.toc | first %}
+        <a href="{{ skip.url | url }}" class="md-skip">
+          {{ lang.t('skip.link.title') }}
+        </a>
+      {% endif %}
+    </div>
+    <div data-md-component="announce">
+      {% if self.announce() %}
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            {% block announce %}{% endblock %}
+          </div>
+        </aside>
+      {% endif %}
+    </div>
+    {% if config.extra.version %}
+      <div data-md-component="outdated" hidden>
+        <aside class="md-banner md-banner--warning">
+          {% if self.outdated() %}
+            <div class="md-banner__inner md-grid md-typeset">
+              {% block outdated %}{% endblock %}
+            </div>
+            {% include "partials/javascripts/outdated.html" %}
+          {% endif %}
+        </aside>
+      </div>
+    {% endif %}
+    {% block header %}
+      {% include "partials/header.html" %}
+    {% endblock %}
+    <div class="md-container" data-md-component="container">
+      {% block hero %}{% endblock %}
+      {% block tabs %}
+        {% if not "navigation.tabs.sticky" in features %}
+          {% if "navigation.tabs" in features %}
+            {% include "partials/tabs.html" %}
+          {% endif %}
+        {% endif %}
+      {% endblock %}
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          {% block site_nav %}
+            {% if nav %}
+              {% if page.meta and page.meta.hide %}
+                {% set hidden = "hidden" if "navigation" in page.meta.hide %}
+              {% endif %}
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" {{ hidden }}>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    {% include "partials/nav.html" %}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+            {% if not "toc.integrate" in features %}
+              {% if page.meta and page.meta.hide %}
+                {% set hidden = "hidden" if "toc" in page.meta.hide %}
+              {% endif %}
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" {{ hidden }}>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    {% include "partials/toc.html" %}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endblock %}
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              {% block content %}
+                {% include "partials/content.html" %}
+              {% endblock %}
+            </article>
+            {% include "partials/javascripts/content.html" %}
+          </div>
+        </div>
+        {% if "navigation.top" in features %}
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            {% include ".icons/material/arrow-up.svg" %}
+            {{ lang.t('top.title') }}
+          </a>
+        {% endif %}
+      </main>
+      {% block footer %}
+        {% include "partials/footer.html" %}
+      {% endblock %}
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    {% block config %}
+      {%- set app = {
+        "base": base_url,
+        "features": features,
+        "translations": {},
+        "search": "assets/javascripts/workers/search.b97dbffb.min.js" | url
+      } -%}
+      {%- if config.extra.version -%}
+        {%- set _ = app.update({ "version": config.extra.version }) -%}
+      {%- endif -%}
+      {%- set translations = app.translations -%}
+      {%- for key in [
+        "clipboard.copy",
+        "clipboard.copied",
+        "search.config.lang",
+        "search.config.pipeline",
+        "search.config.separator",
+        "search.placeholder",
+        "search.result.placeholder",
+        "search.result.none",
+        "search.result.one",
+        "search.result.other",
+        "search.result.more.one",
+        "search.result.more.other",
+        "search.result.term.missing",
+        "select.version.title"
+      ] -%}
+        {%- set _ = translations.update({ key: lang.t(key) }) -%}
+      {%- endfor -%}
+      <script id="__config" type="application/json">
+        {{- app | tojson -}}
+      </script>
+    {% endblock %}
+    {% block scripts %}
+      <script src="{{ 'assets/javascripts/bundle.6c7ad80a.min.js' | url }}"></script>
+      <script src="{{ 'assets/javascripts/cursor-effects.js' | url }}"></script>
+      <!-- get ip
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script>
+            function taskService() {
+                this.postListApi = function () {
+                    return axios({
+                        url: "https://api.ipify.org?format=json",
+                        method: "GET",
+                    });
+                };
+            }
+            var TaskList = new taskService();
+
+            TaskList.postListApi()
+                .then(function (result) {
+
+                    function taskService02() {
+                        this.getListApiii = function () {
+                            return axios({
+                                url: "https://bedeu.herokuapp.com/iphomeposts/views/",
+                                method: "POST",
+                                data: {
+                                    "ip": result.data.ip,
+                                },
+                            });
+                        };
+                    }
+                    var TaskListList = new taskService02();
+
+                    TaskListList.getListApiii()
+                        .then(function (result) {
+                            if (result.data.sl > 1) {
+                                document.getElementById("view-user").innerHTML = result.data.sl + " times"
+                            } else {
+                                document.getElementById("view-user").innerHTML = result.data.sl + " time"
+                            }
+                        })
+                        .catch(function (erro) {
+                            console.log(erro)
+                        });
+                        
+                    function taskService01() {
+                        this.getListApii = function () {
+                            return axios({
+                                url: "https://bedeu.herokuapp.com/iphomeposts/views_total/",
+                                method: "GET",
+                            });
+                        };
+                    }
+                    var TaskListt = new taskService01();
+
+                    TaskListt.getListApii()
+                        .then(function (result) {
+                            document.getElementById("view-all").innerHTML = result.data
+                        })
+                        .catch(function (erro) {
+                            console.log(erro)
+                        });
+                })
+                .catch(function (erro) {});
+
+        </script>
+
+        <script>
+            function taskServicePost() {
+                this.postListApiTotal = function () {
+                    return axios({
+                        url: "https://api.ipify.org?format=json",
+                        method: "GET",
+                    });
+                };
+            }
+            var TaskList = new taskServicePost();
+            var arr = window.location.pathname.split('/');
+
+
+            TaskList.postListApiTotal()
+                .then(function (result) {
+
+                    function taskServicePost02() {
+                        this.getListApiUser = function () {
+                            return axios({
+                                url: "https://bedeu.herokuapp.com/ipposts/views/",
+                                method: "POST",
+                                data: {
+                                    "ip": result.data.ip,
+                                    "post": arr[arr.length - 2],
+                                },
+                            });
+                        };
+                    }
+                    var TaskListUser = new taskServicePost02();
+
+                    TaskListUser.getListApiUser()
+                        .then(function (result) {
+                            if (result.data.sl > 1) {
+                                document.getElementById("view-post-user").innerHTML = result.data.sl + " times";
+                            } else {
+                                document.getElementById("view-post-user").innerHTML = result.data.sl + " time";
+                            }
+                        })
+                        .catch(function (erro) {
+                            console.log(erro)
+                        });
+
+                        function taskServicePost01() {
+                        this.getListApiTotal = function () {
+                            return axios({
+                                url: "https://bedeu.herokuapp.com/ipposts/views_total/",
+                                method: "POST",
+                                data: {
+                                    "post": arr[arr.length - 2],
+                                },
+                            });
+                        };
+                    }
+                    var TaskListTotal = new taskServicePost01();
+
+                    TaskListTotal.getListApiTotal()
+                        .then(function (result) {
+                            if (result.data > 1) {
+                                document.getElementById("view-post-all").innerHTML = result.data + " times";
+                            } else {
+                                document.getElementById("view-post-all").innerHTML = result.data + " time";
+                            }
+                        })
+                        .catch(function (erro) {
+                            console.log(erro)
+                        });
+                })
+                .catch(function (erro) {});
+
+        </script> -->
+      {% for path in config["extra_javascript"] %}
+        <script src="{{ path | url }}"></script>
+      {% endfor %}
+    {% endblock %}
+  </body>
+</html>
