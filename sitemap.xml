@@ -21,56 +21,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://0x5h1n0k0.github.io/tryhackme/191209uhcndcnc%2C.e%3B.frrrp3pz--%3Df%2C1/</loc>
-         <lastmod>2023-08-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://0x5h1n0k0.github.io/tryhackme/red-teaming/init-access/</loc>
-         <lastmod>2023-08-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://0x5h1n0k0.github.io/tryhackme/red-teaming/init-access/password-attacks/</loc>
-         <lastmod>2023-08-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://0x5h1n0k0.github.io/tryhackme/red-teaming/init-access/phishing/</loc>
-         <lastmod>2023-08-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://0x5h1n0k0.github.io/tryhackme/red-teaming/init-access/red-team-reconnaissance/</loc>
-         <lastmod>2023-08-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://0x5h1n0k0.github.io/tryhackme/red-teaming/init-access/red-team-weaponization/</loc>
-         <lastmod>2023-08-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://0x5h1n0k0.github.io/tryhackme/red-teaming/post-compromise/enumeration/</loc>
-         <lastmod>2023-08-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://0x5h1n0k0.github.io/tryhackme/red-teaming/post-compromise/the-lay-of-the-land/</loc>
-         <lastmod>2023-08-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://0x5h1n0k0.github.io/tryhackme/red-teaming/privilege-escalation/</loc>
-         <lastmod>2023-08-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://0x5h1n0k0.github.io/tryhackme/red-teaming/privilege-escalation/window-privilege-escalation/</loc>
-         <lastmod>2023-08-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/</loc>
          <lastmod>2023-08-22</lastmod>
          <changefreq>daily</changefreq>
@@ -82,6 +32,11 @@
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/empire/</loc>
+         <lastmod>2023-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://0x5h1n0k0.github.io/tryhackme/room/enumeration/</loc>
          <lastmod>2023-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -111,7 +66,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://0x5h1n0k0.github.io/tryhackme/room/password-attacks/</loc>
+         <lastmod>2023-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://0x5h1n0k0.github.io/tryhackme/room/phishing/</loc>
+         <lastmod>2023-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/printer-hacking-101/</loc>
+         <lastmod>2023-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://0x5h1n0k0.github.io/tryhackme/room/red-team-reconnaissance/</loc>
+         <lastmod>2023-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://0x5h1n0k0.github.io/tryhackme/room/red-team-weaponization/</loc>
+         <lastmod>2023-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://0x5h1n0k0.github.io/tryhackme/room/the-lay-of-the-land/</loc>
          <lastmod>2023-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
