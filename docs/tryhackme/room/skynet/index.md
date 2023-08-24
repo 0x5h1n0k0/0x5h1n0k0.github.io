@@ -32,8 +32,19 @@ You can follow our official walkthrough for this challenge on [our blog](https:/
 ### __Answer the questions bellow__
 
 !!! question "What is Miles password for his emails?"
+    cyborg007haloterminator
+
+!!! question "What is the hidden directory?"
+    /45kra24zxs28v3yd
 
 !!! question "What is the vulnerability called when you can include a remote file for malicious purposes?"
+    remote file inclusion 
+
+!!! question "What is the user flag?"
+    7ce5c2109a40f958099283600a9ae807
+
+!!! question "What is the root flag?"
+    3f0372db24753accc7179a282cd6a949
 
 ### __Scenario__
 
