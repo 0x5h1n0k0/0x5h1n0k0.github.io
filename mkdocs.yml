@@ -213,6 +213,7 @@ nav:
     - Privilege Escalation:
       - Linux Privilege Escalation: notes/privilege-escalation/linux/index.md
       - Windows Privilege Escalation: notes/privilege-escalation/windows/index.md
+    - Reverse Shell Cheatsheet: notes/reverse-shell/index.md
   - Try Hack Me:
     - Learning Paths:
       - Red Teaming:
@@ -223,9 +224,15 @@ nav:
           - Post Compromise:
               - The Lay of the Land: tryhackme/room/the-lay-of-the-land/index.md
               - Enumeration: tryhackme/room/enumeration/index.md
+              - Windows Local Persistence: tryhackme/room/windows-local-persistence/index.md
     - Practice:
+        - Startup: tryhackme/room/startup/index.md
+        - Skynet: tryhackme/room/skynet/index.md
+        - Simple CTF: tryhackme/room/easyctf/index.md
+        - LazyAdmin: tryhackme/room/lazyadmin/index.md
+        - RootMe: tryhackme/room/rootme/index.md
         - Basic Pentesting: tryhackme/room/basic-pentesting/index.md
-        - Lian_Yu : tryhackme/room/lianyu/index.md
+        - Lian_Yu: tryhackme/room/lianyu/index.md
   - Categories: tags/tags.md
     
 

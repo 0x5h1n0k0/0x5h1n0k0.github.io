@@ -10,7 +10,9 @@ hide:
   - feedback
 
 tags:
-  - THM-CTF
+  - THM-Room
+  - CTF
+  - Privilege Escalation
 ---
 
 # __Lian_Yu__

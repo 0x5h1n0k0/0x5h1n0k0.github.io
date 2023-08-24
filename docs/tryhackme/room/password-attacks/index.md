@@ -11,7 +11,7 @@ hide:
 
 
 tags:
-  - THM-Password Attacks 
+  - THM-Room
 ---
 
 # __Password Attacks__

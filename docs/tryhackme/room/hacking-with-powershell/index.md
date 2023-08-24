@@ -9,7 +9,7 @@ search:
 hide:
   - feedback
 tags:
-  - THM-Intro PowerShell 
+  - THM-Room
 ---
 
 # __TryHackMe - Hacking with Powershell - Walkthrough__

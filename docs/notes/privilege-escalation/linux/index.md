@@ -16,6 +16,8 @@ tags:
 
 # __Linux Privilege Escalation__
 
+https://gtfobins.github.io/
+https://grimbins.github.io/
 ---
 
 ## __Privilege Escalation Methods__

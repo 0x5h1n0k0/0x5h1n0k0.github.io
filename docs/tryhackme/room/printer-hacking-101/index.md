@@ -10,7 +10,8 @@ hide:
   - feedback
 
 tags:
-  - THM-CTF
+  - CTF
+  - THM-Room
 ---
 
 # __Printer Hacking 101__

@@ -13,7 +13,7 @@ links:
   - setup/setting-up-site-search.md#built-in-search-plugin
   - insiders/index.md#how-to-become-a-sponsor
 tags:
-  - THM-Intro C2
+  - THM-Room
 ---
 
 # __TryHackMe - Intro to C2__

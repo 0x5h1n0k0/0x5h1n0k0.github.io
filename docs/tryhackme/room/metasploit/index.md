@@ -13,7 +13,7 @@ links:
   - setup/setting-up-site-search.md#built-in-search-plugin
   - insiders/index.md#how-to-become-a-sponsor
 tags:
-  - Intro Metasploit
+  - THM-Room
 ---
 
 # __TryHackMe - Metasploit__

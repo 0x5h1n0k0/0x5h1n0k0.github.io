@@ -11,7 +11,7 @@ hide:
 
 
 tags:
-  - THM-Phishing 
+  - THM-Room
 ---
 
 # __Phishing__
