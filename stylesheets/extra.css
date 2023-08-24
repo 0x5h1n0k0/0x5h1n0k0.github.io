@@ -156,4 +156,11 @@ thead {
     max-width: 1515px; 
 }
 
+table {
+    table-layout: fixed !important;
+    max-width: 100%;
+}
 
+iframe {
+    width: 100% !important;
+}
