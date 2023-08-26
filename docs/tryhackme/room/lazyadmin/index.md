@@ -12,7 +12,6 @@ hide:
 
 tags:
   - THM-Room
-  - CTF
   - Privilege Escalation
 ---
 

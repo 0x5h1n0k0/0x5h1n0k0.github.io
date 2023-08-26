@@ -13,7 +13,6 @@ hide:
 tags:
   - THM-Room 
   - Privilege Escalation
-  - CTF
 ---
 
 # __Startup__

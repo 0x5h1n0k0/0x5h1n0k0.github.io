@@ -10,7 +10,6 @@ hide:
   - feedback
 
 tags:
-  - CTF
   - THM-Room
 ---
 

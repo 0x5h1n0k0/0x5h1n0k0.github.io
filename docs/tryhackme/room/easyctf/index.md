@@ -12,8 +12,7 @@ hide:
 
 tags:
   - THM-Room
-  - Linux Privilege Escalation
-  - CTF
+  - Privilege Escalation
   - SQL Injection
 ---
 

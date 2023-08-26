@@ -206,10 +206,12 @@ markdown_extensions:
       clickable_checkbox: true
   - pymdownx.tilde
   - pymdownx.snippets
+  - markdown_captions
 
 # Page tree
 nav:
   - PINNED:
+    - CVE: cve/index.md
     - Privilege Escalation:
       - Linux Privilege Escalation: notes/privilege-escalation/linux/index.md
       - Windows Privilege Escalation: notes/privilege-escalation/windows/index.md
@@ -225,14 +227,9 @@ nav:
               - The Lay of the Land: tryhackme/room/the-lay-of-the-land/index.md
               - Enumeration: tryhackme/room/enumeration/index.md
               - Windows Local Persistence: tryhackme/room/windows-local-persistence/index.md
-    - Practice:
-        - Startup: tryhackme/room/startup/index.md
-        - Skynet: tryhackme/room/skynet/index.md
-        - Simple CTF: tryhackme/room/easyctf/index.md
-        - LazyAdmin: tryhackme/room/lazyadmin/index.md
-        - RootMe: tryhackme/room/rootme/index.md
-        - Basic Pentesting: tryhackme/room/basic-pentesting/index.md
-        - Lian_Yu: tryhackme/room/lianyu/index.md
+    - Practice: 
+        - Difficulty - Easy: tryhackme/room/_index/easy.md
+        - Difficulty - Medium: tryhackme/room/_index/medium.md
   - Categories: tags/tags.md
     
 
