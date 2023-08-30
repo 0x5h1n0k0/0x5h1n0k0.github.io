@@ -205,3 +205,8 @@ h2{
 .md-typeset h4{
     font-size: 0.8rem !important;
 }
+
+.highlight .hll {
+    background-color: #2b2845 !important;
+    color: #000 !important;
+}
