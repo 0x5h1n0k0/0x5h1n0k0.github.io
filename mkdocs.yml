@@ -230,6 +230,9 @@ nav:
     - Practice: 
         - Difficulty - Easy: tryhackme/room/_index/easy.md
         - Difficulty - Medium: tryhackme/room/_index/medium.md
+    - Room: tryhackme/room/index.md
+  - 247CTF: 
+    - 247ctf/index.md
   - Categories: tags/tags.md
     
 

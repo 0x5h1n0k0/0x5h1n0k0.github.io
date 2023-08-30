@@ -17,6 +17,9 @@ hide:
 
 <div class="grid" markdown>
 
+[__Blog__](/tryhackme/room/blog/)
+{ .card }
+
 [__Wonderland__](/tryhackme/room/wonderland/)
 { .card }
 

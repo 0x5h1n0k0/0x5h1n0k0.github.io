@@ -17,6 +17,9 @@ hide:
 
 <div class="grid" markdown>
 
+[__CyBorg__](/tryhackme/room/cyborgt8/)
+{ .card }
+
 [__Ignite__](/tryhackme/room/ignite/)
 { .card }
 

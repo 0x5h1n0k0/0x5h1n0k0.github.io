@@ -1,7 +1,7 @@
 ---
 template: overrides/blog.html
 icon: material/plus-circle
-title: Windows Local Persistence
+title: Wonderland
 description: >
   
 search:
@@ -224,6 +224,8 @@ Sau khi thăm dò hệ thống bằng user rabbit, ta lại phát hiện file te
 ![Terminal](image-7.png)
 
 Ta thử `strings teaParty` thì thấy hệ thống báo command strings chưa được install, để hạn chế việc phát hiện của blue team trong hệ thống, ta hạn chế install package. 
+
+> Mọi hành vi mơ hồ trên hệ thống đều để lại dấu vết. Để dùng được `strings` ta cần install package binutils. Thì lúc này phía bên kia chiến tuyến có thể dùng `dpkg` để xem thông tin gói hoặc có thể dùng `whereis`, `which` để kiểm tra vị trí lệnh `strings`. 
 
 Từ đây, ta sẽ tạo 1 máy chủ web local để máy attacker có thể lấy file teaParty về kiểm thử
 
