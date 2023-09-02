@@ -205,7 +205,9 @@ markdown_extensions:
   - pymdownx.tasklist:
       clickable_checkbox: true
   - pymdownx.tilde
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
   - markdown_captions
 
 # Page tree

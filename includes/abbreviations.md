@@ -1,0 +1,4 @@
+*[SSH]: Secure Shell (SSH) refers to a cryptographic network protocol used in secure communication between devices. SSH encrypts data using cryptographic algorithms, such as Advanced Encryption System (AES) and is often used when logging in remotely to a computer or server. 
+*[Apache]: Apache is the most widely used web server software. Developed and maintained by Apache Software Foundation, Apache is an open source software available for free. 
+*[Hydra]: Hydra is a free and open-source password-cracking tool. It can try numerous passwords till the correct password is found. It can be used to crack passwords for various network services, including SSH, Telnet, FTP, and HTTP.
+*[IDS]: Intrusion Detection System (IDS) is a system that detects unauthorised network and system intrusions. Examples include detecting unauthorised devices connected to the local network and unauthorised users accessing a system or modifying a file.

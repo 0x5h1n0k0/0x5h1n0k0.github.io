@@ -17,6 +17,21 @@ hide:
 
 <div class="grid" markdown>
 
+[__Lesson Learned?__](/tryhackme/room/lessonlearned/)
+{ .card }
+
+[__Traverse__](/tryhackme/room/traverse/)
+{ .card }
+
+[__Brute It__](/tryhackme/room/bruteit/)
+{ .card }
+
+[__Year of the Rabbit__](/tryhackme/room/yearoftherabbit/)
+{ .card }
+
+[__CTF wgel__](wgelctf)
+{ .card }
+
 [__CyBorg__](/tryhackme/room/cyborgt8/)
 { .card }
 

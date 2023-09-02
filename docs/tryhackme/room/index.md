@@ -4,6 +4,24 @@
 
 <div class="grid" markdown>
 
+[__Lesson Learned?__](/tryhackme/room/lessonlearned/)
+{ .card }
+
+[__Traverse__](/tryhackme/room/traverse/)
+{ .card }
+
+[__Hydra__](/tryhackme/room/hydra/)
+{ .card }
+
+[__Brute It__](/tryhackme/room/bruteit/)
+{ .card }
+
+[__Year of the Rabbit__](/tryhackme/room/yearoftherabbit/)
+{ .card }
+
+[__Year of the Fox__](/tryhackme/room/yotf/)
+{ .card }
+
 [__CTF wgel__](wgelctf)
 { .card }
 

@@ -1,7 +1,7 @@
 ---
 template: overrides/blog.html
 icon: material/plus-circle
-title: Name
+title: Year of the Fox
 description: >
   
 search:
@@ -14,16 +14,16 @@ tags:
   - Privilege Escalation
 ---
 
-# __Name__
+# __Year of the Fox__
 
-Room at https://tryhackme.com/room/Name
+Room at https://tryhackme.com/room/yotf
 
 ---
 
 ??? question "List of the questions solved"
 
     Question: name
-    > Ans: name
+    > name
 
 ## __Pentest scenario__
 
