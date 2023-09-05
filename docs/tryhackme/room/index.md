@@ -4,6 +4,9 @@
 
 <div class="grid" markdown>
 
+[__Grep__](/tryhackme/room/greprtp/)
+{ .card }
+
 [__Lesson Learned?__](/tryhackme/room/lessonlearned/)
 { .card }
 

