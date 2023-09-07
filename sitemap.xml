@@ -2,322 +2,367 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://0x5h1n0k0.github.io/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/247ctf/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/247ctf/template/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/247ctf/acid-flag-bank/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/247ctf/administrative-orm/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/247ctf/compare-the-pair/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/247ctf/flag-authoriser/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/247ctf/forgotten-file-pointer/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/247ctf/secured-session/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/247ctf/slippery-upload/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/247ctf/the-twig-injector/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/247ctf/trusted-client/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/cve/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/cve/CVE-2018-16763/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/cve/CVE-2019-8942/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/cve/CVE-2019-9053/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://0x5h1n0k0.github.io/dvwa/</loc>
+         <lastmod>2023-09-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://0x5h1n0k0.github.io/dvwa/template/</loc>
+         <lastmod>2023-09-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://0x5h1n0k0.github.io/dvwa/brute-force/</loc>
+         <lastmod>2023-09-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://0x5h1n0k0.github.io/dvwa/command-injection/</loc>
+         <lastmod>2023-09-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://0x5h1n0k0.github.io/dvwa/cross-site-request-forgery/</loc>
+         <lastmod>2023-09-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://0x5h1n0k0.github.io/dvwa/file-inclusion/</loc>
+         <lastmod>2023-09-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://0x5h1n0k0.github.io/dvwa/file-upload/</loc>
+         <lastmod>2023-09-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://0x5h1n0k0.github.io/dvwa/sql-injection/</loc>
+         <lastmod>2023-09-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://0x5h1n0k0.github.io/dvwa/sql-injection-blind/</loc>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/notes/privilege-escalation/linux/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/notes/privilege-escalation/windows/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/notes/reverse-shell/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tags/tags/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/template/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/_index/easy/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/_index/hard/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/_index/medium/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/basic-pentesting/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/blog/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/brooklynninenine/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/bruteit/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/cyberkillchainzmt/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/cyborgt8/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/easyctf/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/empire/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/enumeration/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/greprtp/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/hacking-with-powershell/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/hacking-with-powershell/tmp/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/hydra/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/ignite/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/intro-c2/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/investigatingwindows/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/lazyadmin/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/lessonlearned/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/lianyu/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/metasploit/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/nax/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/password-attacks/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/phishing/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/printer-hacking-101/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/red-team-reconnaissance/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/red-team-weaponization/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/redteamnetsec/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/rootme/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/skynet/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/startup/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/the-lay-of-the-land/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/tomghost/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/traverse/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/wgelctf/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/windows-local-persistence/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/wonderland/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/yearoftherabbit/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tryhackme/room/yotf/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://0x5h1n0k0.github.io/tags/tags/</loc>
-         <lastmod>2023-09-05</lastmod>
+         <lastmod>2023-09-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
