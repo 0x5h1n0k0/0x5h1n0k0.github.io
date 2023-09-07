@@ -235,6 +235,8 @@ nav:
     - Room: tryhackme/room/index.md
   - 247CTF: 
     - 247ctf/index.md
+  - DVWA: 
+    - dvwa/index.md
   - Categories: tags/tags.md
     
 

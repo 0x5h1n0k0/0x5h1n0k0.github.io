@@ -1,7 +1,7 @@
 ---
 template: overrides/blog.html
 icon: material/plus-circle
-title: Name
+title: Lesson Learned?
 description: >
   
 search:
@@ -14,7 +14,7 @@ tags:
   - Privilege Escalation
 ---
 
-# __Name__
+# __Lesson Learned?__
 
 Room at https://tryhackme.com/room/lessonlearned
 
