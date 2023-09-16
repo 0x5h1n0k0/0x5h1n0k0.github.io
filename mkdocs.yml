@@ -219,11 +219,10 @@ nav:
       - Windows Privilege Escalation: notes/privilege-escalation/windows/index.md
     - Reverse Shell Cheatsheet: notes/reverse-shell/index.md
   - Try Hack Me:
-    - Practice: tryhackme/room/index.md
+    - Machines: tryhackme/room/index.md
   - 247CTF: 
     - 247ctf/index.md
-  - DVWA: 
-    - dvwa/index.md
+  - DVWA: dvwa/index.md
   - Categories: tags/tags.md
     
 

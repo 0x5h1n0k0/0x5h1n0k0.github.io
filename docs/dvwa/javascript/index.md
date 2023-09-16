@@ -1,7 +1,7 @@
 ---
 template: overrides/blog.html
 icon: material/plus-circle
-title: NAME
+title: JavaScript
 description: >
   
 search:
@@ -14,7 +14,7 @@ tags:
   - XSS DOM
 ---
 
-# __NAME__
+# __JavaScript__
 
 
 
@@ -22,7 +22,7 @@ tags:
 
 ## __Objective__
 
-
+Simply submit the phrase "success" to win the level. Obviously, it isn't quite that easy, each level implements different protection mechanisms, the JavaScript included in the pages has to be analysed and then manipulated to bypass the protections.
 
 ## __Security Level: Low__
 
@@ -83,3 +83,7 @@ Source code
 
 ## __More Information__
 
+
+- https://www.w3schools.com/js/
+- https://www.youtube.com/watch?v=cs7EQdWO5o0&index=17&list=WL
+- https://ponyfoo.com/articles/es6-proxies-in-depth

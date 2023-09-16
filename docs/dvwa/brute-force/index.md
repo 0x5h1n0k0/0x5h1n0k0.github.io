@@ -1,7 +1,7 @@
 ---
 template: overrides/blog.html
 icon: material/plus-circle
-title: Name
+title: Brute Force
 description: >
   
 search:
@@ -11,11 +11,18 @@ hide:
 
 tags:
   - DVWA
+  - Brute Force
 ---
 
 # __Brute Force__
 
+_A brute force attack can manifest itself in many different ways, but primarily consists in an attacker configuring predetermined values, making requests to a server using those values, and then analyzing the response. For the sake of efficiency, an attacker may use a dictionary attack (with or without mutations) or a traditional brute-force attack (with given classes of characters e.g.: alphanumeric, special, case (in)sensitive). Considering a given method, number of tries, efficiency of the system which conducts the attack, and estimated efficiency of the system which is attacked the attacker is able to calculate approximately how long it will take to submit all chosen predetermined values._
+
 ---
+
+## __Objective__
+
+Your goal is to get the administrator’s password by brute forcing. Bonus points for getting the other four user passwords!
 
 ## __Security Level: Low__
 
@@ -53,10 +60,63 @@ if( isset( $_GET[ 'Login' ] ) ) {
     ((is_null($___mysqli_res = mysqli_close($GLOBALS["___mysqli_ston"]))) ? false : $___mysqli_res);
 }
 
-?>
+?> 
 ```
 
 ### __Analysis__
 
 ### __Exploition__
+
+---
+
+## __Security Level: Medium__
+
+Source code
+
+```php title=""
+
+```
+
+### __Analysis__
+
+
+### __Exploition__
+
+
+---
+
+## __Security Level: High__
+
+Source code
+
+```php title=""
+```
+
+### __Analysis__
+
+
+### __Exploition__
+
+---
+
+## __Security Level: Impossible__
+
+Source code
+
+```php title=""
+
+```
+
+### __Analysis__
+
+---
+
+## __What we learned__
+
+## __More Information__
+
+
+- https://owasp.org/www-community/attacks/Brute_force_attack
+- http://www.symantec.com/connect/articles/password-crackers-ensuring-security-your-password
+- https://www.golinuxcloud.com/brute-force-attack-web-forms
 

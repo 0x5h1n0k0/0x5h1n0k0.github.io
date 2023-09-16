@@ -1,4 +1,4 @@
-# __Home__
+# __DVWA__
 
 ---
 
@@ -41,7 +41,7 @@ In this section, I will present my solution to the modules in DVWA at each level
 [__Command Injection__](/dvwa/command-injection/)
 { .card }
 
-[__CSRF__](/dvwa/csrf/)
+[__CSRF__](/dvwa/cross-site-request-forgery/)
 { .card }
 
 [__File Inclusion__](/dvwa/file-inclusion/)
