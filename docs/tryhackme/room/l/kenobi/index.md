@@ -131,7 +131,7 @@
 <div style="text-align: center">Lets first understand what what SUID, SGID and Sticky Bits are.</div>
 
 | __Permission__ |	__On Files__ | __On Directories__ |
-| :---: | :---: | 
+| :---: | :---: |  :---: |
 | SUID Bit	| User executes the file with permissions of the file owner	| - |
 | SGID Bit	| User executes the file with the permission of the group owner. |  File created in directory gets the same group owner. |
 | Sticky Bit | 	No meaning	 | Users are prevented from deleting files from other users. | 
