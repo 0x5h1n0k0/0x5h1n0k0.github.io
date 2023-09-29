@@ -1,7 +1,7 @@
 ---
 template: overrides/blog.html
 icon: material/plus-circle
-title: NAME
+title: Authorisation Bypass
 description: >
   
 search:
@@ -11,29 +11,31 @@ hide:
 
 tags:
   - DVWA
-  - XSS DOM
+  - Authorisation Bypass
 ---
 
-# __NAME__
-
-
+# __Authorisation Bypass__
 
 ---
 
 ## __Objective__
 
-
+Your goal is to get the administrator’s password by brute forcing. Bonus points for getting the other four user passwords!
 
 ## __Security Level: Low__
 
 Source code
 
-```php title=""
+```php title="vulnerabilities/brute/source/impossible.php"
+--8<-- "dvwa/brute-force/sources/impossible.php"
 ```
+
 
 ### __Analysis__
 
+
 ### __Exploition__
+
 
 ---
 
@@ -41,9 +43,7 @@ Source code
 
 Source code
 
-```php title=""
 
-```
 
 ### __Analysis__
 
@@ -57,13 +57,10 @@ Source code
 
 Source code
 
-```php title=""
-```
+
 
 ### __Analysis__
 
-
-### __Exploition__
 
 ---
 
@@ -71,15 +68,13 @@ Source code
 
 Source code
 
-```php title=""
-
-```
 
 ### __Analysis__
+
+
 
 ---
 
 ## __What we learned__
 
 ## __More Information__
-

