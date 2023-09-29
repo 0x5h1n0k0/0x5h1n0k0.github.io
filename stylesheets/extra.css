@@ -237,3 +237,12 @@ h2{
     transform: translateY(-50%) rotate(90deg);
     top: 50% !important;
 }
+
+.md-typeset mark{
+    background: #bb86fc !important;
+}
+
+span.spoiler{
+    background: #181826;
+    color: #181826;
+}
